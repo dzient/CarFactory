@@ -19,7 +19,7 @@ namespace FactoryPattern
         {
             String? userVehicle;
             ICallable theVehicle;
-            Console.WriteLine("What kind of vehicle do you want?");
+            Console.WriteLine("What kind of vehicle do you want (car, motorcycle, truck or SUV)?");
             do
             {
                 userVehicle = Console.ReadLine();
